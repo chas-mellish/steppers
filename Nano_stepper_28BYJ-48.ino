@@ -4,9 +4,10 @@
 #define Steps_per_motor_revolution  64       // 64 steps per rotor revolution
 #define Steps_per_output_revolution 64 * 32  // 32:1 reduction gearing
 
-// Wiring 8 = In1, 9 = In2, 10 = In3, 11 = In4
+// Wiring 11 = In1, 10 = In2, 9 = In3, 8 = In4
 // 28BYJ-48 Pin 'firing' order 1-3-2-4
-Stepper small_stepper(Steps_per_motor_revolution, 8, 10, 9, 11);
+
+Stepper small_stepper(Steps_per_motor_revolution, 11, 9, 10, 8);
 
 int  Steps_travel;
 
