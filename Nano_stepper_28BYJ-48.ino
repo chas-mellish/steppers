@@ -1,4 +1,4 @@
-/* 28BYJ-48 stepper control*/
+/* 28BYJ-48 stepper control - modified from code found at yourduino.com */
 #include <Stepper.h>
 
 #define Steps_per_motor_revolution  64       // 64 steps per rotor revolution
