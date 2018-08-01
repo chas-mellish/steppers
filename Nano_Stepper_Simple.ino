@@ -1,3 +1,4 @@
+/* Based on code found at https://howtomechatronics.com */
 const int step_pin = 5; 
 const int direction_pin = 4;
 int delay_time = 500;               // minimum ~50 = fastest
